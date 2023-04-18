@@ -26,4 +26,5 @@ func main() {
 	} else {
 		fmt.Printf("%.1f%s not bad\n", percent, "%")
 	}
+
 }

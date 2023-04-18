@@ -10,7 +10,9 @@ func main() {
 	names[2] = "Cek"
 	names[3] = "asdads"
 
-	fmt.Println(names[0], names[1])
+	if len(names) > 0 {
+		fmt.Println(names[0], names[1])
+	}
 
 	var fruits = [4]string{"apple", "grace", "banana", "melo"}
 
